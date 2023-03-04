@@ -1,0 +1,88 @@
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 80px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 25px 0;
+  
+}
+
+  /* Свойства контакты */
+h3 {
+  font-size: 25px;
+  margin: 25px 0;
+  position: relative;
+  left: 320px;
+  top: -380px;
+}
+
+  /* Свойства фотографии */
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 5px;
+  position: relative;
+  left: 320px;
+  top: -370px;
+  }
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:yellowgreen;
+}
+
+/* Свойства кнопки */
+button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  position: relative;
+  left: 320px;
+  top: -350px;
+}
+
+/* Свойства кнопки */
+button:hover {
+   background: yellowgreen;
+  }
+
+/* Свойства p */
+p {
+  position: relative;
+  top: 10px;
+}
+
+/* Свойства фона */
+body {
+  background-color: bisque;
+}
